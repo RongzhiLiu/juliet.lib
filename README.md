@@ -1,6 +1,6 @@
 # juliet.lib android 通用框架，代号：朱丽叶
 ### 特色
-#### 1. 基于kotlin
+1. 基于kotlin
 * 90%的代码基于kotlin
 #### 2. 封装高可复用mvp模式 
 * 封装了BaseActivity,BaseFragment,并增加了fragment回退栈管理，每一次返回操作，均会层层出发fragment 的onBackPressed，事件被消耗，则此次操作结束  
