@@ -15,4 +15,15 @@
 #### 5. 封装常用工具
 * 常用工具，包括字符串转换，表情符过滤，日志打印，软应用，弱应用权限申请等
 ### 使用  
-``` implementation 'com.liurongzhi:juliet:1.0.1'
+```
+project下的gradle中添加maven库
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://raw.githubusercontent.com/RongzhiLiu/juliet.lib/master" }
+    }
+}
+在app的gradle中添加依赖
+implementation 'com.liurongzhi:juliet:1.0.1'
+```
