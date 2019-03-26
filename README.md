@@ -6,6 +6,7 @@
 * 封装了BaseActivity,BaseFragment,并增加了fragment回退栈管理，每一次返回操作，均会层层出发fragment 的onBackPressed，事件被消耗，则此次操作结束  
 * 封装了BaseModel 内部包含两个内联函数，提供get/post请求，通过范性来确定返回值类型，简单易用  
 * 通过范性约束model,presenter,view 三层的引用类型，并用弱应用弱化三者的强绑定，防止内存泄漏
+* 封装协程控制，可通过presenter使用协程，在页面销毁时自动停止所有协程任务，避免泄漏
 #### 3. 封装网络层，增加同请求缓存  
 * 使用前初始化域名，application，请求公共参数等，可重复初始化
 * 通过动态传递url，复用get/post请求，避免重复创建service，减少冗余代码
