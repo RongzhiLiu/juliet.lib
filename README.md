@@ -28,5 +28,5 @@ allprojects {
     }
 }
 在app的gradle中添加依赖
-implementation 'com.liurongzhi:juliet:1.0.5'
+implementation 'com.liurongzhi:juliet:1.0.8'
 ```
