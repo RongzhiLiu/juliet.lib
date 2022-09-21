@@ -1,3 +1,4 @@
+已停止维护
 # juliet.lib android 通用框架，代号：朱丽叶
 ### 特色
 #### 1. 基于kotlin
